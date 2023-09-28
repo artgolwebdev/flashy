@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Inter:wght@100;300;400;700;900&display=swap');
+body{
+    font-family: 'Inter';
+}
+
+.full-name{
+    font-size:56px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.header{
+    height:144px;
+    background-image: url('../img/bg.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profile-image-wrapper{
+    position:relative;
+    bottom:80px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:234px;
+    height:234px;
+
+    border: 4px solid #fff;
+    border-radius: 25%;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.10);
+}
+
+.profile-data-holder{
+    margin-top:-70px;
+}
+
+.bluish {
+    color:#13AAFF;
+    font-weight:700;
+}
+
+.blackish{
+    color:#111111;
+    font-weight:500;
+}
+
+.title{
+    font-size:32px;
+}
+
+.social{
+    color:#CECECE;
+    font-size:10px;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .profile-image-wrapper{
+        width:180px;
+        height:180px;
+    }
+
+    .full-name{
+        font-size:42px;
+    }
+
+    .title{
+        font-size:22px;
+    }
+    
+  }  
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+
+    .hidden-on-sm{
+        display: none;
+    }
+
+    .profile-image-wrapper{
+        width:120px;
+        height:120px;
+    }
+
+    .full-name{
+        font-size:22px;
+    }
+  }
