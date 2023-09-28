@@ -3,9 +3,9 @@
 
 ## Instalation 
 
-<p>$ git clone https://github.com/artgolwebdev/flashy.git</p>
 <p>$ composer install </p>
 <p>$ npm install </p>
-<p>$ npm run dev </p>
+<p>copy .env.example .env</p>
 <p>$ php artisan key:generate </p>
+<p>$ npm run build </p>
 <p>$ php artisan serve </p>
